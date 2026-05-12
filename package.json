@@ -1,0 +1,13 @@
+{
+  "name": "vite8-css-url-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:v7": "node node_modules/vite7/bin/vite.js build",
+    "build:v8": "node node_modules/vite8/bin/vite.js build"
+  },
+  "devDependencies": {
+    "vite7": "npm:vite@^7.3.3",
+    "vite8": "npm:vite@^8.0.12"
+  }
+}
